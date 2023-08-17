@@ -1,0 +1,24 @@
+Preguntas Examen
+
+- ¿Cuántas clases tiene el proyecto?
+	R// Tiene 3 clases
+- ¿En cuál clase se define el programa principal
+	R// En la clase zoologico
+- ¿Cuántos objetos de la clase Animal se crean en la clase principal?
+	R// Se crean 2 Objetos 
+- ¿Cuántos y cuáles son los atributos de la clase Animal?
+	R//Son 4 y son Nombre, Genero, Peso y Pareja
+- ¿Cuáles atributos de la clase Animal no son primitivos?
+	R// Nombre, Genero Y Pareja
+- ¿Qué pasa si eliminamos la línea 17 de la clase Zoologico?
+	R// El animal No cosnigue pareja por lo cual no se cumple la condicion y no puede tener hijos
+- ¿Cuántos métodos tiene la clase Familia?
+	R// Tiene 3 metodos
+- ¿Cuántos parámetros tiene el método tenerHijo() de la clase Familia?
+	Tiene 1 parametro el cual es Nombre.
+
+- ¿Cuántos atributos inicializa el constructor de la clase Familia?
+	R// 3 atributos los cuales son nombre, peso, genero.
+
+- ¿Qué tipo de retorno tiene el método tenerHijo()?
+	R// Retorna un tipo Void
