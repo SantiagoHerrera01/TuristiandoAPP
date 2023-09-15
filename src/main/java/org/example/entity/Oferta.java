@@ -14,21 +14,21 @@ public class Oferta {
     private LocalDate fechaInicio;
     private LocalDate fechaFin;
     private Double costoPersona;
-    private Local local ;
+    private Empresa empresa;
 
 
     public Oferta() {
     }
 
     public Oferta(Long id, String titulo, String descripcion, LocalDate fechaInicio, LocalDate fechaFin,
-                  Double costoPersona, Local local) {
+                  Double costoPersona, Empresa empresa) {
         this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.fechaInicio = fechaInicio;
         this.fechaFin = fechaFin;
         this.costoPersona = costoPersona;
-        this.local = local;
+        this.empresa = empresa;
     }
 
     public Long getId() {
@@ -103,11 +103,11 @@ public class Oferta {
         }
     }
 
-    public Local getLocal() {
-        return local;
+    public Empresa getLocal() {
+        return empresa;
     }
 
-    public void setLocal(Local local) {
-        this.local = local;
+    public void setLocal(Empresa empresa) {
+        this.empresa = empresa;
     }
 }

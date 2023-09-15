@@ -6,8 +6,11 @@ public enum Mensaje {
     CORREO_INVALIDO("Revisa el formato del correo"),
     UBICACION_INVALIDA("Ubicacion no valida"),
     FECHA_INICIO_INVALIDA("Fecha no valida"),
+    FECHA_FIN_INVALIDA("La fecha de inicio no puede ser mayor a la de finalización"),
+    PRECIO_MENSUAL_INVALIDO("El precio no puede ser negativo"),
 
-    FECHA_FIN_INVALIDA("La fecha de inicio no puede ser mayor a la de finalización");
+    NIT_INVALIDO("El nit es incorrecto"),
+    COSTO_PERSONA_INVALIDA("El costo por persona no puede ser negativo");
     private String mensaje;
 
     Mensaje(String mensaje) {

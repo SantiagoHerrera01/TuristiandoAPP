@@ -2,10 +2,7 @@ package org.example.entity;
 
 import org.example.validations.UsuarioValidacion;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-public class Usuario {
+public abstract class Usuario {
     protected UsuarioValidacion validacion=new UsuarioValidacion();
     private static long nextId=1;
     private Long id;
@@ -85,4 +82,6 @@ public class Usuario {
         }
 
     }
+
+    public abstract void registrar();
 }

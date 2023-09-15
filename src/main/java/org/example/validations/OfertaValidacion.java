@@ -14,7 +14,7 @@ public class OfertaValidacion {
         if (titulo.length()<=20){
             return true;
         }else {
-            throw new Exception("El titulo debe tener20 o menos caracteres.");
+            throw new Exception(Mensaje.NUMERO_CATACTERES_INVALIDO.getMensaje());
         }
     }
 
@@ -36,7 +36,7 @@ public class OfertaValidacion {
 
     public boolean validarCostoPersona(Double costoPersona)throws Exception{
         if (costoPersona<0){
-            throw new Exception("El costo por persona no puede ser negativo");
+            throw new Exception(Mensaje.COSTO_PERSONA_INVALIDA.getMensaje());
         }else {
         return true;
         }
